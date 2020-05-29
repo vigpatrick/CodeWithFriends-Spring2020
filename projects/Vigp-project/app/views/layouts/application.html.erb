@@ -29,8 +29,6 @@
             <li class="user-link">
               <% if current_user.avatar.attached? %>
                 <%= image_tag current_user.avatar, class: "round-image" %>
-              <% else %>
-                <%= image_tag gravatar_image_tag(current_user.email), class: "round-image" %>
               <% end %>
               <%= link_to format_name(current_user), user_path(current_user), class: "nav-link" %>
             </li>

@@ -16,10 +16,10 @@ en:
     link: Home
     welcome: Hello
     join: Create your account now !
-    description: BingeSquad was basically an app I build to work a bit with the new version of rails 6. On BingeSquad, you can publish or join event with random people in order to watch a movie, a series or even anime.
-    description_2: The owner as the role create an event and on the day of it, you can join his discord and he'll stream the movie.
-    description_3: Basic and lot of work ... I know, I only had a month and it was for fun and education. But you meet fantastic people with this hard work "insert winky face"
-    description_4: With BingeSquad you can met new people during those hard time around one of your facorite movie or watch that damn movie that have been collecting dust at the bottom of this mystical list of yours or that one you were not able to find anywhere.
+    description: BingeSquad is an app I built to work with the new version of rails 6. On the app you can publish or join events with random people, from watching a movie, to binging your favourite series, even an episode of an anime.
+    description_2: Sadly, The app doesn’t do all the work. The event’s creator must add a discord link for users to use on the day of the gathering in order to join the platform and watch the movies. The owner manages everything on discord.
+    description_3: Basic and a lot of work ... I know. I only had a month and it was for fun and an educational experience. But you meet fantastic people from with this hard work "insert winky face"
+    description_4: With BingeSquad you can meet new people during these trying times and bond over your favourite movies. Or watch that dang film that has been collecting dust at the bottom of some mystical list, maybe that old show you just can’t find anywhere.
     message_html: 'BingeSquad was build during the <a href="https://scottkwang.github.io/CodeWithFriends-Spring2020/"> Code with friends event of spring 2020</a>. The event is hosted by <a href="https://www.youtube.com/channel/UCEDkO7wshcDZ7UZo17rPkzQ"> Mayuko Inoue</a> and <a href="https://www.twitch.tv/squatkong">Scott Kwang</a>. Look them up, they are awesome !'
   user:
     infos: Infos

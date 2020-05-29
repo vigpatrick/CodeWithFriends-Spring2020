@@ -34,9 +34,9 @@
               span.event-label = t('event.owner')
               = link_to format_name(@event.user), user_path(@event.user), class: 'event-user-link'
           div
-          - if current_user == @event.user
+          - unless current_user == @event.user
             = link_to t('Edit'), edit_event_path(@event), class: "btn btn-primary btn-lg"
-          - if @can_participate
+          - unless @can_participate
             = link_to t('Participate'), join_event_path(@event, user: current_user), class: "btn btn-primary btn-lg"
           - if current_user != @event.user && @event.participations.include?(current_user)
             = link_to t('Quit'), quit_event_path(@event, user: current_user), class: "btn btn-primary btn-lg"
